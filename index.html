@@ -17,9 +17,9 @@
       <div class="working-nav">
         <nav id="nav-bar">
           <ul id="nav-links">
-            <li class="nav-link"><a href="#">HOME</a></li>
-            <li class="nav-link"><a href="#">POINTS</a></li>
-            <li class="nav-link"><a href="#">XYZ</a></li>
+            <li class="nav-link"><a href="#home">HOME</a></li>
+            <li class="nav-link"><a href="#point">POINTS</a></li>
+            <li class="nav-link"><a href="#demo">HOW</a></li>
           </ul>
         </nav>
         <form
@@ -38,7 +38,7 @@
     </header>
     <main id="main">
       <div class="main-content">
-        <h1>Apple Card</h1>
+        <h1 id="home">Apple Card</h1>
         <p>
           A new kind of credit card. <br />
           Created by Apple, not a bank.
@@ -63,7 +63,7 @@
         <img src="./img/phone_in_hand.png" alt="phone in hand" />
       </div>
       <div class="point-title">
-        <h1>Daily Cash back.<br>No points.<br>No gimmicks.</h1>
+        <h1 id="point">Daily Cash back.<br />No points.<br />No gimmicks.</h1>
       </div>
       <div class="point-content">
         <p>
@@ -74,6 +74,45 @@
         </p>
       </div>
     </div>
+
+    <div class="working">
+      <h1 id="demo">How it Works !</h1>
+
+      <iframe id="video" src="https://www.youtube.com/embed/HAZiE9NtRfs">
+      </iframe>
+    </div>
+
+    <div class="apply">
+      <div class="apply-content">
+        <h1 id="apply-title">Start using Apple Card in minutes.</h1>
+      
+        <p id="apply-para">
+          You can apply for Apple Card in the Wallet app on your iPhone and
+          start using it right away with Apple Pay.
+        </p>
+      </div>
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <div class="input name">
+        <label for="name" >Name</label>
+        <input type="text" id="name" placeholder="Name">
+      </div>
+      <div class="input email">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" placeholder="example@xyz.com">
+      </div>
+      <div class="input dob">
+        <label for="date">D.O.B</label>
+        <input type="date" id="date">
+      </div>
+      <div class="input location">
+        <label for="location">Location</label>
+        <input type="text" id="location" placeholder="New York">
+      </div>
+      <button type="submit" class="btn" id="form-btn">Get Card</button>
+      </form>
+    </div>
+
+    
 
     <script src="./script.js"></script>
   </body>
