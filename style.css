@@ -226,12 +226,21 @@ main {
 }
 
 #form-btn {
-  margin-top: 40px;
+  margin-top: 5%;
   background-color: #1db954;
   width: 130px;
   height: 40px;
   font-weight: 500;
   font-size: 16px;
+}
+footer
+{
+  background: black;
+  color:white;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (max-width: 600px) {
@@ -346,6 +355,10 @@ main {
   }
   .input {
     width: 80%;
+  }
+  #form-btn
+  {
+    margin-top:7%;
   }
 }
 
