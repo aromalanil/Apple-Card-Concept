@@ -195,14 +195,14 @@ main {
   justify-content: center;
 }
 #form {
-  color: black;
+  color: rgba(0, 0, 0, 0.8);
   font-size: 1em;
   width: 35vw;
   border-radius: 10px;
   margin: auto;
   margin-left: -1vw;
   height: 80vh;
-  background-color: rgba(256, 256, 256, 0.9);
+  background-color: rgba(256, 256, 256, 0.8);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -213,15 +213,22 @@ main {
   display: flex;
   flex-direction: column;
 }
+.input input:focus
+{
+  outline: none;
+}
 .input input {
+  font-size: 16px;
+  padding-top: 3px;
   padding-left: 10px;
   margin-top: 10px;
-  border: 1px solid black;
+  border: none;
   border-radius: 5px;
   background-color: rgb(255, 255, 255);
   height: 30px;
 }
 .input label {
+  font-size: 18px;
   margin-top: 30px;
 }
 
