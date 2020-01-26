@@ -1,9 +1,6 @@
 # Apple-Card-Concept
 
-Mockup 1            |  Mockup2
-:-------------------------:|:-------------------------:
-![Website Mockup 1](https://github.com/aromalanil/Apple-Card-Concept/blob/master/art/mockup-1.png?raw=true)
-  | ![Website Mockup 2](https://github.com/aromalanil/Apple-Card-Concept/blob/master/art/mockup-2.png?raw=true)
+![Website Mockup 1](https://github.com/aromalanil/Apple-Card-Concept/blob/master/art/mockup-1.png?raw=true) ![Website Mockup 2](https://github.com/aromalanil/Apple-Card-Concept/blob/master/art/mockup-2.png?raw=true)
 
 This is a concept landing page for Apple Card made as part of web development course for freecodecamp.org
 
